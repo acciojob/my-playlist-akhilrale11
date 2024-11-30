@@ -1,1 +1,35 @@
-/*  your css code here. If applicable */
+/* Body styling */
+body {
+    background-color: rgb(204, 204, 204);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Video player container */
+.player_one {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: fit-content;
+}
+
+/* Audio player container */
+.player_two {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: fit-content;
+}
+
+/* General styles for links */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
